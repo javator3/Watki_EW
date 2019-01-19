@@ -40,8 +40,8 @@ public class Main {
 
         Podwajanie podwajanie=new Podwajanie();
         Podwajanie podwajanie2=new Podwajanie();
-        podwajanie.run();
-        podwajanie2.run();
+        //podwajanie.run();
+        //podwajanie2.run();
 
         Thread thread=new Thread(new Runnable() {//klasa anonimowa
             @Override
